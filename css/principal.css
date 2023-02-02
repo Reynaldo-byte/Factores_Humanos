@@ -1,0 +1,106 @@
+﻿body {
+	font-family: Lucida Handwriting;
+	text-align:center;
+	color: white;
+    background-color: #1A1A1A;
+	overflow: hidden;
+}
+footer {
+	border: 3px solid black;
+	color: black;
+	font-family: Lucida console;
+    text-align: center;
+    background-color: #7D2828;
+	padding: 3px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+header {
+	border: 3px solid black;
+	border-radius: 5px;
+	color: black;
+	font-family: Lucida console;
+    background-color: #7D2828;
+    overflow: hidden;
+    text-align:center;
+}
+.mainmenubtn {
+	
+    background-color: #7D2828;
+    border: 2px solid #D9D9D9;
+    border-radius: 5px;
+    cursor: pointer;
+	padding-left: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+    margin-top: 22px;
+    font-family: Lucida console;
+	font-weight: bold;
+	font-size:16px;
+    width:100%;
+}
+
+    .mainmenubtn:hover {
+        <li class=" odd">
+    }
+
+.dropdown {
+    position:page;
+}
+
+.dropdown-child {
+	border: 0px;
+    border-radius: 5px;
+    display: none;
+	background-color: #D9D9D9;
+    width:100%;
+    font-family: Lucida console;
+}
+
+    .dropdown-child a {
+        color: black;
+        padding: 20px;
+        text-decoration: none;
+        display: block;
+    }
+
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+.menu {
+    float: left;
+    width: 25%;
+}
+.subventana {
+    float: right;
+    width:70%;
+    height:600px;
+}
+object {
+    float: right;
+    width: 70%;
+    height: 600px;
+}
+.logo{
+    width:10%;
+}
+
+.button {
+	background-color: #7D2828;
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	border: 3px solid #D9D9D9;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 18px;
+    font-family: Lucida console;
+	font-weight: bold;
+	font-size:16px;
+	color: black;
+    width:10%;
+}
+
